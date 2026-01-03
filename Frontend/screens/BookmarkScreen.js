@@ -6,18 +6,15 @@ const BookmarkScreen = () => {
   const theme = useContext(themeContext);
   const [selectedFood, setSelectedFood] = useState('');
   const [bookmarkList, setBookmarkList] = useState([
-    'Banana', 'Apple', 'Potato', 'Cucumber', 'Bell Pepper', 'Tomato', 'Carrot', 'Mango', 'Strawberry'
+    'Apple', 'Banana', 'Orange', 'Lemon', 'Cucumber', 'Tomato', 
   ]);
   const foodOptions = [
-    { label: 'Banana', value: 'Banana' },
     { label: 'Apple', value: 'Apple' },
-    { label: 'Potato', value: 'Potato' },
+    { label: 'Banana', value: 'Banana' },
+    { label: 'Orange', value: 'Orange' },
+    { label: 'Lemon', value: 'Lemon' },
     { label: 'Cucumber', value: 'Cucumber' },
-    { label: 'Bell Pepper', value: 'Bell Pepper' },
     { label: 'Tomato', value: 'Tomato' },
-    { label: 'Carrot', value: 'Carrot' },
-    { label: 'Mango', value: 'Mango' },
-    { label: 'Strawberry', value: 'Strawberry' },
   ];
 
   const addToBookmark = () => {
@@ -129,3 +126,4 @@ const styles = StyleSheet.create({
 });
 
 export default BookmarkScreen;
+
