@@ -6,7 +6,7 @@ import {getAuth} from 'firebase/auth'
 import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA6-T-afXC-ryqOv74Bxedeqias_DTaXIM",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,  // Hidden API key
   authDomain: "fir-fyp-6c287.firebaseapp.com",
   projectId: "fir-fyp-6c287",
   storageBucket: "fir-fyp-6c287.appspot.com",
@@ -17,4 +17,5 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+
 export const db= getFirestore(app);
