@@ -8,3 +8,7 @@ ios/
 venv/
 __pycache__/
 *.pyc
+
+# Environment Variables (Firebase API Key etc.)
+.env
+
