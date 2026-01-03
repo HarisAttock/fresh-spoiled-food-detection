@@ -1,0 +1,10 @@
+# React Native
+node_modules/
+android/
+ios/
+*.log
+
+# Python
+venv/
+__pycache__/
+*.pyc
