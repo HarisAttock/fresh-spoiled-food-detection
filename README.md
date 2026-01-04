@@ -21,7 +21,7 @@ The frontend is built using React Native, while the backend is developed in Pyth
 4. The result (Fresh or Spoiled) is returned to the app in real time.
 
 ## Key Features
-- Cross-platform mobile application (Android / iOS)
+- Android mobile application for food quality detection
 - Real-time food quality detection
 - REST API integration
 - Simple and user-friendly UI
